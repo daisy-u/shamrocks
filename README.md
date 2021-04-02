@@ -12,6 +12,8 @@ Lucky charms guy
 - HTML
 - CSS
 - Javascript
+- Bootstrap
+- JQuery
 
 ## Team Members
 - Megan Berry

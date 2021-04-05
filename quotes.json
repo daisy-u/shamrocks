@@ -1,22 +1,102 @@
 [
     {
         "quote" : "Success isn’t about how much money you make; it’s about the difference you make in people’s lives.",
-        "author" : "Michelle Obama, former First Lady of the United States"
+        "author" : "- Michelle Obama, former First Lady of the United States"
     },
     {
         "quote" : "If your actions create a legacy that inspires others to dream more, learn more, do more and become more, then, you are an excellent leader.",
-        "author" : "Dolly Parton, singer and songwriter"
+        "author" : "- Dolly Parton, singer and songwriter"
     },
     {
         "quote" : "High sentiments always win in the end, The leaders who offer blood, toil, tears and sweat always get more out of their followers than those who offer safety and a good time. When it comes to the pinch, human beings are heroic.",
-        "author" : "George Orwell, author and journalist"
+        "author" : "- George Orwell, author and journalist"
     },
     {
         "quote" : "If you want to improve the organization, you have to improve yourself and the organization gets pulled up with you.",
-        "author" : "Indra Nooyi, Pepsi CEO"
+        "author" : "- Indra Nooyi, Pepsi CEO"
     },
     {
         "quote" : "He who wishes to be obeyed must know how to command.",
-        "author" : "Niccolò Machiavelli, philosopher and writer"
+        "author" : "- Niccolò Machiavelli, philosopher and writer"
+    },
+    {
+        "quote" : "What you do has far greater impact than what you say.",
+        "author" : "– Stephen Covey, author and educator"
+    },
+    {
+        "quote" : "Develop success from failures. Discouragement and failure are two of the surest stepping stones to success.",
+        "author" : "- Dale Carnegie, author and motivational speaker"
+    },
+    {
+        "quote" : "Ninety percent of leadership is the ability to communicate something people want.",
+        "author" : "– Dianne Feinstein, U.S. Senator"
+    },
+    {
+        "quote" : "An organization’s ability to learn, and translate that learning into action rapidly, is the ultimate competitive advantage.",
+        "author" : " – Jack Welch, former CEO of General Electric"
+    },
+    {
+        "quote" : "It’s fine to celebrate success but it is more important to heed the lessons of failure.",
+        "author" : "– Bill Gates, co-founder of Microsoft"
+    },
+    {
+        "quote" : "It takes 20 years to build a reputation and five minutes to ruin it. If you think about that, you’ll do things differently.",
+        "author" : " – Warren Buffett, investor"
+    },
+    {
+        "quote" : "Outstanding leaders go out of the way to boost the self-esteem of their personnel. If people believe in themselves, it’s amazing what they can accomplish.",
+        "author" : " – Sam Walton, founder of Walmart and Sam’s Club"
+    },
+    {
+        "quote" : "One of the most important things for any leader is to never let anyone else define who you are. And you define who you are. I never think of myself as being a woman CEO of this company. I think of myself as a steward of a great institution.",
+        "author" : "– Ginni Rometty, CEO of IBM"
+    },
+    {
+        "quote" : "Of all the things I’ve done, the most vital is coordinating those who work with me and aiming their efforts at a certain goal.",
+        "author" : "– Walt Disney, founder of Disney"
+    },
+    {
+        "quote" : "Leadership is something you earn, something you’re chosen for. You can’t come in yelling, ‘I’m your leader!’ If it happens, it’s because the other guys respect you.",
+        "author" : " – Ben Roethlisberger, Pittsburgh Steelers quarterback"
+    },
+    {
+        "quote" : "Management is doing things right; leadership is doing the right things.",
+        "author" : " – Peter F. Drucker, author and educator"
+    },
+    {
+        "quote" : "You don’t have to hold a position in order to be a leader.",
+        "author" : "– Henry Ford, founder of the Ford Motor Company"
+    },
+    {
+        "quote" : "Innovation distinguishes between a leader and a follower.",
+        "author" : "– Steve Jobs, co-founder and former CEO of Apple"
+    },
+    {
+        "quote" : "Perfection is not attainable, but if we chase perfection we can catch excellence.",
+        "author" : "– Vince Lombardi, legendary Green Bay Packers coach"
+    },
+    {
+        "quote" : "True leadership stems from individuality that is honestly and sometimes imperfectly expressed… Leaders should strive for authenticity over perfection.",
+        "author" : " – Sheryl Sandberg, COO of Facebook"
+    },
+    {
+        "quote" : "To have long term success as a coach or in any position of leadership, you have to be obsessed in some way.",
+        "author" : "– Pat Riley, President of the Miami Heat and former Lakers coach"
+    },
+    {
+        "quote" : "We do not need magic to change the world, we carry all the power we need inside ourselves already: we have the power to imagine better.",
+        "author" : "– J.K. Rowling, author of the Harry Potter series"
+    },
+    {
+        "quote" : "Each group and each youngster is different. As a leader or coach, you get to know what they need.",
+        "author" : "– Mike Krzyzewski, Duke basketball coach"
+    },
+    {
+        "quote" : "We are all faced with a series of great opportunities brilliantly disguised as impossible situations.",
+        "author" : "– Chuck Swindoll, Christian pastor and radio preacher"
+    },
+    {
+        "quote" : "Some people want it to happen, some wish it would happen, others make it happen.",
+        "author" : "– Michael Jordan, Hall of Fame basketball superstar"
     }
 ]

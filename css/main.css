@@ -1,3 +1,42 @@
+/**FONTS**/
+@font-face {
+  font-family: "Butterfly Reflect"; 
+  src: url("//db.onlinewebfonts.com/t/12915b6b3556a9b7eb8532f844bb010f.eot"); 
+  src: url("//db.onlinewebfonts.com/t/12915b6b3556a9b7eb8532f844bb010f.eot?#iefix") format("embedded-opentype"), 
+  url("//db.onlinewebfonts.com/t/12915b6b3556a9b7eb8532f844bb010f.woff2") format("woff2"), 
+  url("//db.onlinewebfonts.com/t/12915b6b3556a9b7eb8532f844bb010f.woff") format("woff"), 
+  url("//db.onlinewebfonts.com/t/12915b6b3556a9b7eb8532f844bb010f.ttf") format("truetype"), 
+  url("//db.onlinewebfonts.com/t/12915b6b3556a9b7eb8532f844bb010f.svg#Butterfly Reflect") format("svg"); 
+}
+@font-face {
+  font-family: "betterfly"; 
+  src: url("//db.onlinewebfonts.com/t/273d109a90780d8fe7bbe69817a67397.eot"); 
+  src: url("//db.onlinewebfonts.com/t/273d109a90780d8fe7bbe69817a67397.eot?#iefix") format("embedded-opentype"), 
+  url("//db.onlinewebfonts.com/t/273d109a90780d8fe7bbe69817a67397.woff2") format("woff2"), 
+  url("//db.onlinewebfonts.com/t/273d109a90780d8fe7bbe69817a67397.woff") format("woff"), 
+  url("//db.onlinewebfonts.com/t/273d109a90780d8fe7bbe69817a67397.ttf") format("truetype"), 
+  url("//db.onlinewebfonts.com/t/273d109a90780d8fe7bbe69817a67397.svg#betterfly") format("svg"); 
+}
+@font-face {
+  font-family: "Crimson Italic"; 
+  src: url("//db.onlinewebfonts.com/t/208cdb5c144cfc84d71e8caacdeb3f0c.eot"); 
+  src: url("//db.onlinewebfonts.com/t/208cdb5c144cfc84d71e8caacdeb3f0c.eot?#iefix") format("embedded-opentype"), 
+  url("//db.onlinewebfonts.com/t/208cdb5c144cfc84d71e8caacdeb3f0c.woff2") format("woff2"), 
+  url("//db.onlinewebfonts.com/t/208cdb5c144cfc84d71e8caacdeb3f0c.woff") format("woff"), 
+  url("//db.onlinewebfonts.com/t/208cdb5c144cfc84d71e8caacdeb3f0c.ttf") format("truetype"), 
+  url("//db.onlinewebfonts.com/t/208cdb5c144cfc84d71e8caacdeb3f0c.svg#Crimson Text") format("svg"); 
+}
+@font-face {
+  font-family: "Crimson Bold"; 
+  src: url("//db.onlinewebfonts.com/t/9c0c72db60c32789832643e2f476572d.eot"); 
+  src: url("//db.onlinewebfonts.com/t/9c0c72db60c32789832643e2f476572d.eot?#iefix") format("embedded-opentype"), 
+  url("//db.onlinewebfonts.com/t/9c0c72db60c32789832643e2f476572d.woff2") format("woff2"), 
+  url("//db.onlinewebfonts.com/t/9c0c72db60c32789832643e2f476572d.woff") format("woff"), 
+  url("//db.onlinewebfonts.com/t/9c0c72db60c32789832643e2f476572d.ttf") format("truetype"), 
+  url("//db.onlinewebfonts.com/t/9c0c72db60c32789832643e2f476572d.svg#Crimson Text") format("svg"); 
+}
+
+/**MAIN CODE**/
 *,
 *::before,
 *::after {
@@ -5,11 +44,20 @@
 }
 
 :root {
-  --clr-icons: #929292;
-  --clr-text: #fff;
-  --clr-bg-dark: #242424;
-  --clr-bg-light: #3b3b3b;
-  --clr-accent: #ff7600;
+  --clr-icons:#42962f;
+  --clr-text: #fff ;
+  --clr-bg-dark: #666d6e;
+  --clr-accent: #f6be2e;
+  --ff-title: "betterfly", Arial, Helvetica, sans-serif;
+  --ff-serif: "Butterfly Reflect", serif;
+  --ff-sans: "Crimson Italic", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: var(--ff-sans);
+  color: var(--clr-text);
+  font-size: 1.125rem;
 }
 
 body {
@@ -17,11 +65,33 @@ body {
   background-color: var(--clr-bg-dark);
   color: var(--clr-text);
   line-height: 1.5;
-  font-family: sans-serif;
+  font-family: var(--ff-serif);
+  background-image: url(../imgs/shamrock\ bg.png);
+  text-align: center;
+  padding: 15vh 0;
 }
 
+/**TYPOGRAPHY**/
+h2, 
+h3 {
+  font-family: var(--ff-title);
+  line-height: 0.8;
+  font-size: 5rem;
+}
+
+h2, h3, p {
+  margin: 0;
+}
+
+p {
+  margin-bottom: 0.85em;
+  font-size: 2rem;
+}
+
+/**HOMEPAGE STYLES**/
 img {
-  max-width: 100%;
+  display: flex;
+  max-width: 50%;
 }
 
 .btn {
@@ -64,7 +134,7 @@ img {
 }
 
 .location {
-  color: var(--clr-icons);
+  color: var(--clr-accent);
   margin: 0;
   font-size: 1.5rem;
   margin-bottom: 1.5em;
@@ -74,10 +144,30 @@ header {
   display: flex;
   align-items: center;
   margin: 2em 0;
+  padding: 1em 0 2em;
+}
+
+/**NAVBAR**/
+nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0.5em;
+  color: var(--clr-accent)
+}
+
+nav a:hover,
+nav a:focus {
+  color: var(--clr-text);
 }
 
 .nav {
-  flex-grow: 1;
+  flex-grow: 5;
   display: flex;
   justify-content: space-around;
 }

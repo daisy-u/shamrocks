@@ -5,7 +5,7 @@ const pElNewAuthor = document.getElementById("newAuthor");
 
 $( "#moreQuotes" ).click(function() {
      fetch("./quotes.json")                                         // did not get an api key, so decided to host a local jason file of about
-         .then(extractJSON)                                              // 100 movie quotes and generate a random one
+         .then(extractJSON)                                              // 50 leadership quotes and generate a random one on each click
          .then(useTheData);
 
          function extractJSON (response) {

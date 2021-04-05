@@ -68,7 +68,7 @@ body {
   font-family: var(--ff-serif);
   background-image: url(../imgs/shamrock\ bg.png);
   text-align: center;
-  padding: 15vh 0;
+  padding: 15vh 1em;
 }
 
 /**TYPOGRAPHY**/
@@ -190,6 +190,15 @@ nav a:focus {
 
 footer {
   margin-top: 2em;
+  background-color: var(--clr-accent);
+  padding: 3em 1em;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social-img {
+  max-width: 60px;
 }
 
 .social-links {
